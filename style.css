@@ -1,0 +1,61 @@
+* {
+   font-family: 'CMUSerifRoman'; 
+   font-weight: normal; 
+   font-style: normal; ; 
+  text-align: center;}
+
+body {
+  padding: 0.5em;
+  width: 90%;
+  margin: 0 auto;
+  background-image:url("https://www.creativeboom.com/uploads/articles/68/68ef1f34ab4ef76b4e9d844e435e062684933002_2200.jpg");
+  background-size:contain;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+#content {
+  overflow: auto;
+  color: green; }
+#nav, #feature, #footer {
+  margin: 3%;}
+.column1 {
+  width: 100%;
+  float: center;
+  margin: 1%;
+  height: 100;
+  margin-bottom: 1em;
+  background-color:lightgray;
+  padding: 0.5em;}
+main {
+  flex: auto;
+}
+
+h1 {
+  color:lightgray;
+}
+
+#nav, #footer {
+  
+  
+  padding: 0.5em 12px;
+  margin: 0.5px;
+  padding: 10px 20px
+}
+  
+
+#nav li {
+  display:inline;
+  padding: 1em;
+}
+
+
+p, h1,a { 
+   font-family: 'CMUSerifRoman'; 
+   font-weight: normal; 
+   font-style: normal; 
+  font-size: 200%;
+}
